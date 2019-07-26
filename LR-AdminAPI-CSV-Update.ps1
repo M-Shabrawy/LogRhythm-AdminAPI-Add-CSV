@@ -104,7 +104,7 @@ if($PMHost -eq "")
 else
 {
     $apiUrl = "https://" + $PMHost + ":8501"
-    TrustAllCerts
+    InSecure
 }
 #Get CSV file
 write-host "Please select CSV file CSV, file format it should be Username,Identifier"
